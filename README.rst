@@ -3,41 +3,39 @@
     :width: 100%
     :align: center
 
-``python-pushsafer`` aims at providing comprehensive Python bindings for the API
+``MicroPython-pushsafer`` aims at providing comprehensive MicroPython bindings for the API
 of the `Pushsafer Notification Service`_ as documented here__.
+
+USAGE: exactly the same way as in python-pushsafer. Using pushsafer in micropython is painless.
 
 .. _Pushsafer Notification Service: https://www.pushsafer.com/ 
 .. __: https://www.pushsafer.com/en/pushapi
 
-Forked from and original created by: Thibauth https://github.com/Thibauth/python-pushover
+Forked from: https://github.com/appzer/python-pushsafer
 
 
 Installation
 ------------
 
-Install from pip:
 
-.. code-block::
-   bash
 
-   pip install python-pushsafer
+You can install it directly from GitHub:
 
-or you can install it directly from GitHub_:
 
-.. code-block::
     bash
 
-    git clone https://github.com/appzer/python-pushsafer.git
-    cd python-pushsafer
-    pip install .
+    git clone https://github.com/appzer/python-pushsafer.git\
 
-.. _GitHub: https://github.com/appzer/python-pushsafer
+    cd python-pushsafer
+
+
+ GitHub: https://github.com/appzer/python-pushsafer
 
 Overview
 --------
 
-.. code-block::
-    python
+
+    micropython
 
     from pushsafer import Client
 
@@ -48,8 +46,8 @@ Overview
 
 Params
 ------
-.. code-block::
-   python
+
+   micropython
 
    client.send_message(
                        "Message",
