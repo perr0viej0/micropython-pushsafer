@@ -1,6 +1,11 @@
 Changes
 -------
 
+micropython port (2022-08-12)
+------------------
+
+ported pushsafer.py 1.0 to micropython to use in PyBoards
+
 1.0 (2021-10-25)
 ------------------
 
