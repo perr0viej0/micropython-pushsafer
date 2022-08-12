@@ -24,12 +24,12 @@ You can install it directly from GitHub:
 
     bash
 
-    git clone https://github.com/appzer/python-pushsafer.git\
+    git clone https://github.com/perr0viej0/micropython-pushsafer.git\
 
     cd python-pushsafer
 
 
- GitHub: https://github.com/appzer/python-pushsafer
+ GitHub: https://github.com/perr0viej0/micropython-pushsafer
 
 Overview
 --------
